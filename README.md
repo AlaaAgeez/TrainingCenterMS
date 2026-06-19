@@ -1,194 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Training Center Management System</title>
+<h1 align="center">🚀 Training Center Management System</h1>
 
-<style>
-    body {
-        font-family: 'Segoe UI', Tahoma;
-        line-height: 1.7;
-        margin: 0;
-        background: #0f172a;
-        color: #e5e7eb;
-    }
+<p align="center">
+Backend Developer Project | ASP.NET Core Web API | Clean Architecture
+</p>
 
-    .container {
-        max-width: 900px;
-        margin: auto;
-        padding: 30px;
-    }
+---
 
-    h1, h2, h3 {
-        color: #38bdf8;
-    }
+<h2>📌 Project Overview</h2>
 
-    section {
-        background: #111827;
-        padding: 20px;
-        margin-bottom: 20px;
-        border-radius: 12px;
-        border: 1px solid #334155;
-    }
+<p>
+Designed and developed a production-grade Training Center Management System using <b>ASP.NET Core Web API</b> following <b>Clean Architecture</b> principles.
+</p>
 
-    .badge {
-        display: inline-block;
-        background: #1d4ed8;
-        padding: 3px 8px;
-        border-radius: 6px;
-        font-size: 12px;
-        margin-left: 5px;
-    }
+<p>
+The system simulates a real-world educational platform where students, instructors, and administrators interact through a secure and scalable backend infrastructure.
+</p>
 
-    ul {
-        padding-left: 20px;
-    }
+<p>
+The project focuses on modularity, scalability, security, and maintainability with strict separation of concerns across all layers.
+</p>
 
-    li {
-        margin-bottom: 5px;
-    }
-</style>
-</head>
+---
 
-<body>
+<h2>🏗️ Architecture (4 Layers)</h2>
 
-<div class="container">
+<ul>
+  <li><b>API Layer:</b> Controllers + Global Exception Middleware</li>
+  <li><b>Business Layer:</b> Application logic, services, FluentValidation, policies</li>
+  <li><b>Core Layer:</b> Entities, DTOs, Interfaces, Constants, Custom Exceptions</li>
+  <li><b>Data Access Layer:</b> EF Core, Repositories, Unit of Work</li>
+</ul>
 
-<!-- TITLE -->
-<section>
-    <h1>🚀 Training Center Management System</h1>
-    <p><b>Backend Developer Project</b> | ASP.NET Core Web API | Clean Architecture</p>
-</section>
+<p>
+Built using Dependency Injection and fully interface-driven design for maximum decoupling.
+</p>
 
-<!-- OVERVIEW -->
-<section>
-    <h2>📌 Project Overview</h2>
-    <p>
-        Designed and developed a production-grade Training Center Management System using ASP.NET Core Web API following Clean Architecture principles.
-        The system simulates a real-world educational platform where students, instructors, and administrators interact through a secure and scalable backend infrastructure.
-    </p>
-    <p>
-        The project focuses on modularity, scalability, security, and maintainability, with strict separation of concerns across all layers.
-    </p>
-</section>
+---
 
-<!-- ARCHITECTURE -->
-<section>
-    <h2>🏗️ Architecture & Design</h2>
+<h2>⚙️ Key Features</h2>
 
-    <p><b>Implemented Clean Architecture with 4 main layers:</b></p>
-    <ul>
-        <li>API Layer (Controllers + Middleware)</li>
-        <li>Business Layer (Application Logic + Services)</li>
-        <li>Core Layer (Entities, DTOs, Interfaces, Constants, Exceptions)</li>
-        <li>Data Access Layer (Repositories + Unit of Work + EF Core)</li>
-    </ul>
+<h3>🔐 Authentication & Authorization</h3>
+<ul>
+  <li>JWT Authentication + Refresh Tokens</li>
+  <li>Role-Based Access Control (RBAC)</li>
+  <li>Policy-Based Authorization</li>
+</ul>
 
-    <p><b>Separation of concerns:</b></p>
-    <ul>
-        <li>Domain logic</li>
-        <li>Business logic</li>
-        <li>Infrastructure concerns</li>
-    </ul>
+<h3>⚡ Performance</h3>
+<ul>
+  <li>Redis Caching</li>
+  <li>Optimized queries with AsNoTracking</li>
+  <li>Server-side pagination</li>
+  <li>Fully asynchronous operations</li>
+</ul>
 
-    <p>Designed a fully decoupled system using Dependency Injection and interface-driven development.</p>
-</section>
+<h3>🛡️ Security</h3>
+<ul>
+  <li>Global Exception Handling Middleware</li>
+  <li>FluentValidation per DTO</li>
+  <li>Rate Limiting for abuse protection</li>
+</ul>
 
-<!-- FEATURES -->
-<section>
-    <h2>⚙️ Key Features & Implementation</h2>
+<h3>📊 Data Layer</h3>
+<ul>
+  <li>Repository Pattern + Unit of Work</li>
+  <li>Clean EF Core implementation</li>
+</ul>
 
-    <h3>🔐 Authentication & Authorization</h3>
-    <ul>
-        <li>JWT Authentication with Refresh Token mechanism</li>
-        <li>Role-Based Access Control (RBAC)</li>
-        <li>Policy-Based Authorization for fine-grained access control</li>
-    </ul>
+<h3>📧 Integrations</h3>
+<ul>
+  <li>SMTP Email Service (Gmail)</li>
+</ul>
 
-    <h3>⚡ Performance & Optimization</h3>
-    <ul>
-        <li>Redis Caching for frequently accessed data</li>
-        <li>Server-side pagination with optimized queries</li>
-        <li>EF Core AsNoTracking for read-heavy operations</li>
-        <li>Asynchronous programming throughout the system</li>
-    </ul>
+---
 
-    <h3>🛡️ Security & Reliability</h3>
-    <ul>
-        <li>Global Exception Handling Middleware</li>
-        <li>Custom AppException handling strategy</li>
-        <li>FluentValidation per DTO</li>
-        <li>Rate Limiting to prevent abuse and brute-force attacks</li>
-    </ul>
+<h2>🧰 Tech Stack</h2>
 
-    <h3>📊 Data Layer</h3>
-    <ul>
-        <li>Repository Pattern + Unit of Work</li>
-        <li>Clean EF Core data access layer</li>
-        <li>Separation between domain and persistence logic</li>
-    </ul>
+<p>
+ASP.NET Core Web API • EF Core • SQL Server • Redis • JWT • FluentValidation • Swagger • SMTP • Dependency Injection
+</p>
 
-    <h3>📧 External Integrations</h3>
-    <ul>
-        <li>SMTP Email Service (Gmail integration)</li>
-        <li>Automated email notifications</li>
-    </ul>
+---
 
-    <h3>📚 API Design</h3>
-    <ul>
-        <li>RESTful API with DTO abstraction</li>
-        <li>Swagger documentation</li>
-        <li>Consistent response structure</li>
-    </ul>
+<h2>🚀 Deployment</h2>
 
-    <h3>🚀 Deployment</h3>
-    <ul>
-        <li>Production deployment via SmarterASP.NET</li>
-        <li>HTTPS enabled</li>
-        <li>Production-ready configuration</li>
-    </ul>
-</section>
+<p>
+Deployed on <b>SmarterASP.NET</b> with HTTPS enabled and production-ready configuration.
+</p>
 
-<!-- TECH STACK -->
-<section>
-    <h2>🧰 Technology Stack</h2>
-    <ul>
-        <li>ASP.NET Core Web API</li>
-        <li>Entity Framework Core</li>
-        <li>SQL Server</li>
-        <li>Redis</li>
-        <li>JWT Authentication</li>
-        <li>FluentValidation</li>
-        <li>SMTP Email Service</li>
-        <li>Swagger</li>
-        <li>Dependency Injection</li>
-        <li>C# .NET</li>
-    </ul>
-</section>
+---
 
-<!-- ACHIEVEMENTS -->
-<section>
-    <h2>🎯 Key Achievements</h2>
-    <ul>
-        <li>Built a scalable enterprise-grade backend system</li>
-        <li>Optimized performance using caching and query optimization</li>
-        <li>Implemented secure authentication and authorization system</li>
-        <li>Maintained clean and maintainable architecture</li>
-        <li>Delivered production-ready deployed API</li>
-    </ul>
-</section>
+<h2>🎯 Key Highlights</h2>
 
-<!-- NOTE -->
-<section>
-    <h2>💡 Note</h2>
-    <p>
-        This project demonstrates strong backend engineering skills including system design, clean architecture,
-        security implementation, and production deployment readiness.
-    </p>
-</section>
-
-</div>
-
-</body>
-</html>
+<ul>
+  <li>Enterprise-grade Clean Architecture design</li>
+  <li>Secure and scalable backend system</li>
+  <li>High performance using caching + optimized queries</li>
+  <li>Production-ready deployed API</li>
+</ul>
