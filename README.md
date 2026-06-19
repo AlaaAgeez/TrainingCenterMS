@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Training Center Management System</title>
-</head>
-
 <body>
 
 <h1>🎓 Training Center Management System (TCMS)</h1>
