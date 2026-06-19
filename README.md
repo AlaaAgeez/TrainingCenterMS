@@ -1,100 +1,114 @@
-<h1 align="center">🚀 Training Center Management System</h1>
+<body>
 
-<p align="center">
-Backend Developer Project | ASP.NET Core Web API | Clean Architecture
-</p>
+<h1>🚀 Training Center Management System</h1>
+<p><strong>ASP.NET Core Web API | Clean Architecture | SQL Server</strong></p>
 
----
+<hr>
 
-<h2>📌 Project Overview</h2>
-
-<p>
-Designed and developed a production-grade Training Center Management System using <b>ASP.NET Core Web API</b> following <b>Clean Architecture</b> principles.
-</p>
+<h2>📌 Overview</h2>
 
 <p>
-The system simulates a real-world educational platform where students, instructors, and administrators interact through a secure and scalable backend infrastructure.
+The Training Center Management System is a backend Web API built using ASP.NET Core following Clean Architecture principles.
 </p>
 
 <p>
-The project focuses on modularity, scalability, security, and maintainability with strict separation of concerns across all layers.
+The system simulates a real training center where students, instructors, and administrators interact through a secure and scalable backend system.
 </p>
 
----
+<p>
+The project focuses on maintainability, separation of concerns, and scalable backend design.
+</p>
 
-<h2>🏗️ Architecture (4 Layers)</h2>
+<hr>
+
+<h2>🏗️ System Architecture</h2>
+
+<p>The system is divided into 4 layers:</p>
 
 <ul>
-  <li><b>API Layer:</b> Controllers + Global Exception Middleware</li>
-  <li><b>Business Layer:</b> Application logic, services, FluentValidation, policies</li>
-  <li><b>Core Layer:</b> Entities, DTOs, Interfaces, Constants, Custom Exceptions</li>
-  <li><b>Data Access Layer:</b> EF Core, Repositories, Unit of Work</li>
+  <li><b>API Layer</b>: Controllers + Global Exception Middleware</li>
+  <li><b>Business Layer</b>: Business logic, services, FluentValidation, authorization policies</li>
+  <li><b>Core Layer</b>: Entities, DTOs, Interfaces, Constants, Custom Exceptions</li>
+  <li><b>Data Access Layer</b>: Repositories, Unit of Work, EF Core</li>
 </ul>
 
 <p>
-Built using Dependency Injection and fully interface-driven design for maximum decoupling.
+The system is built using dependency injection and interface-driven design to ensure loose coupling between layers.
 </p>
 
----
+<hr>
 
 <h2>⚙️ Key Features</h2>
 
-<h3>🔐 Authentication & Authorization</h3>
 <ul>
-  <li>JWT Authentication + Refresh Tokens</li>
-  <li>Role-Based Access Control (RBAC)</li>
+  <li>JWT Authentication with Refresh Token support</li>
+  <li>Role-Based Authorization (RBAC)</li>
   <li>Policy-Based Authorization</li>
-</ul>
-
-<h3>⚡ Performance</h3>
-<ul>
-  <li>Redis Caching</li>
-  <li>Optimized queries with AsNoTracking</li>
-  <li>Server-side pagination</li>
-  <li>Fully asynchronous operations</li>
-</ul>
-
-<h3>🛡️ Security</h3>
-<ul>
   <li>Global Exception Handling Middleware</li>
   <li>FluentValidation per DTO</li>
-  <li>Rate Limiting for abuse protection</li>
+  <li>Rate Limiting for API protection</li>
+  <li>Redis Caching for performance optimization</li>
+  <li>Asynchronous programming (async/await)</li>
 </ul>
 
-<h3>📊 Data Layer</h3>
+<hr>
+
+<h2>📊 Data Access Layer</h2>
+
 <ul>
-  <li>Repository Pattern + Unit of Work</li>
-  <li>Clean EF Core implementation</li>
+  <li>Repository Pattern implementation</li>
+  <li>Unit of Work pattern</li>
+  <li>EF Core with optimized queries</li>
+  <li>AsNoTracking for read optimization</li>
 </ul>
 
-<h3>📧 Integrations</h3>
+<hr>
+
+<h2>📧 External Services</h2>
+
 <ul>
-  <li>SMTP Email Service (Gmail)</li>
+  <li>SMTP Email Service (Gmail integration)</li>
 </ul>
 
----
+<hr>
 
-<h2>🧰 Tech Stack</h2>
+<h2>🧰 Technology Stack</h2>
 
-<p>
-ASP.NET Core Web API • EF Core • SQL Server • Redis • JWT • FluentValidation • Swagger • SMTP • Dependency Injection
-</p>
+<ul>
+  <li>ASP.NET Core Web API</li>
+  <li>C#</li>
+  <li>Entity Framework Core</li>
+  <li>SQL Server</li>
+  <li>Redis</li>
+  <li>JWT Authentication</li>
+  <li>FluentValidation</li>
+  <li>Swagger</li>
+  <li>SMTP Email Service</li>
+  <li>Dependency Injection</li>
+</ul>
 
----
+<hr>
 
 <h2>🚀 Deployment</h2>
 
 <p>
-Deployed on <b>SmarterASP.NET</b> with HTTPS enabled and production-ready configuration.
+Deployed on SmarterASP.NET with production-ready configuration and HTTPS enabled.
 </p>
 
----
+<hr>
 
-<h2>🎯 Key Highlights</h2>
+<h2>🎯 Project Goal</h2>
 
-<ul>
-  <li>Enterprise-grade Clean Architecture design</li>
-  <li>Secure and scalable backend system</li>
-  <li>High performance using caching + optimized queries</li>
-  <li>Production-ready deployed API</li>
-</ul>
+<p>
+To demonstrate backend engineering skills including system design, clean architecture, security implementation, and scalable API development.
+</p>
+
+<hr>
+
+<h2>🚀 Notes</h2>
+
+<p>
+This project is not just CRUD operations — it represents a structured backend system built with real-world architecture principles.
+</p>
+
+</body>
