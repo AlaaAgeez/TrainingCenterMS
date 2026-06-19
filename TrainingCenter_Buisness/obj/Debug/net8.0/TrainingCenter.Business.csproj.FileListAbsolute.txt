@@ -1,0 +1,5 @@
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_Buisness\obj\Debug\net8.0\TrainingCenter.Business.csproj.AssemblyReference.cache
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_Buisness\obj\Debug\net8.0\TrainingCenter.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_Buisness\obj\Debug\net8.0\TrainingCenter.Business.AssemblyInfoInputs.cache
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_Buisness\obj\Debug\net8.0\TrainingCenter.Business.AssemblyInfo.cs
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_Buisness\obj\Debug\net8.0\TrainingCenter.Business.csproj.CoreCompileInputs.cache

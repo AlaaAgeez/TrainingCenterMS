@@ -1,0 +1,14 @@
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter\bin\Debug\net8.0\TrainingCenter.deps.json
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter\bin\Debug\net8.0\TrainingCenter.runtimeconfig.json
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter\bin\Debug\net8.0\TrainingCenter.dll
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter\bin\Debug\net8.0\TrainingCenter.pdb
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter\obj\Debug\net8.0\TrainingCenter.csproj.AssemblyReference.cache
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter\obj\Debug\net8.0\TrainingCenter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter\obj\Debug\net8.0\TrainingCenter.AssemblyInfoInputs.cache
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter\obj\Debug\net8.0\TrainingCenter.AssemblyInfo.cs
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter\obj\Debug\net8.0\TrainingCenter.csproj.CoreCompileInputs.cache
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter\obj\Debug\net8.0\TrainingCenter.dll
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter\obj\Debug\net8.0\refint\TrainingCenter.dll
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter\obj\Debug\net8.0\TrainingCenter.pdb
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter\obj\Debug\net8.0\TrainingCenter.genruntimeconfig.cache
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter\obj\Debug\net8.0\ref\TrainingCenter.dll

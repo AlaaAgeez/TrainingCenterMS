@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="TrainingCenter.Business/TrainingCenter.Business.csproj" Id="67856020-ae23-4db5-a781-0fc39b0f2023" />
+  <Project Path="TrainingCenter/TrainingCenter.Core.csproj" Id="1ae4c2ce-2fdd-4bb3-b5df-29483a31bf44" />
+  <Project Path="TrainingCenterMS/TrainingCenter.API.csproj" />
+  <Project Path="TrainingCenter_DataAccess/TrainingCenter.DataAccess.csproj" Id="a0af5deb-bbfa-4032-b167-4ab2257baefa" />
+</Solution>

@@ -1,0 +1,17 @@
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\bin\Debug\net8.0\TrainingCenter.DataAccess.deps.json
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\bin\Debug\net8.0\TrainingCenter.DataAccess.runtimeconfig.json
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\bin\Debug\net8.0\TrainingCenter.DataAccess.dll
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\bin\Debug\net8.0\TrainingCenter.DataAccess.pdb
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\TrainingCenter.DataAccess.csproj.AssemblyReference.cache
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\TrainingCenter.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\TrainingCenter.DataAccess.AssemblyInfoInputs.cache
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\TrainingCenter.DataAccess.AssemblyInfo.cs
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\TrainingCenter.DataAccess.csproj.CoreCompileInputs.cache
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\TrainingCenter.DataAccess.dll
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\refint\TrainingCenter.DataAccess.dll
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\TrainingCenter.DataAccess.pdb
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\TrainingCenter.DataAccess.genruntimeconfig.cache
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\ref\TrainingCenter.DataAccess.dll
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\bin\Debug\net8.0\TrainingCenter.Core.dll
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\bin\Debug\net8.0\TrainingCenter.Core.pdb
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\Training.0DEFBDA6.Up2Date

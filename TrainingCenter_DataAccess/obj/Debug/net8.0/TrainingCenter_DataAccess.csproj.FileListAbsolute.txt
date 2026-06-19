@@ -1,0 +1,14 @@
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\bin\Debug\net8.0\TrainingCenter_DataAccess.deps.json
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\bin\Debug\net8.0\TrainingCenter_DataAccess.runtimeconfig.json
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\bin\Debug\net8.0\TrainingCenter_DataAccess.dll
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\bin\Debug\net8.0\TrainingCenter_DataAccess.pdb
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\TrainingCenter_DataAccess.csproj.AssemblyReference.cache
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\TrainingCenter_DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\TrainingCenter_DataAccess.AssemblyInfoInputs.cache
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\TrainingCenter_DataAccess.AssemblyInfo.cs
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\TrainingCenter_DataAccess.csproj.CoreCompileInputs.cache
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\TrainingCenter_DataAccess.dll
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\refint\TrainingCenter_DataAccess.dll
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\TrainingCenter_DataAccess.pdb
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\TrainingCenter_DataAccess.genruntimeconfig.cache
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter_DataAccess\obj\Debug\net8.0\ref\TrainingCenter_DataAccess.dll

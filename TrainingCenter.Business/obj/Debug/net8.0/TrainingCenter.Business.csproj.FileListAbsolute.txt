@@ -1,0 +1,17 @@
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter.Business\bin\Debug\net8.0\TrainingCenter.Business.deps.json
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter.Business\bin\Debug\net8.0\TrainingCenter.Business.dll
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter.Business\bin\Debug\net8.0\TrainingCenter.Business.pdb
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter.Business\obj\Debug\net8.0\TrainingCenter.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter.Business\obj\Debug\net8.0\TrainingCenter.Business.AssemblyInfoInputs.cache
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter.Business\obj\Debug\net8.0\TrainingCenter.Business.AssemblyInfo.cs
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter.Business\obj\Debug\net8.0\TrainingCenter.Business.csproj.CoreCompileInputs.cache
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter.Business\obj\Debug\net8.0\TrainingCenter.Business.dll
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter.Business\obj\Debug\net8.0\refint\TrainingCenter.Business.dll
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter.Business\obj\Debug\net8.0\TrainingCenter.Business.pdb
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter.Business\obj\Debug\net8.0\ref\TrainingCenter.Business.dll
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter.Business\bin\Debug\net8.0\TrainingCenter.Core.dll
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter.Business\bin\Debug\net8.0\TrainingCenter.Core.pdb
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter.Business\obj\Debug\net8.0\TrainingCenter.Business.csproj.AssemblyReference.cache
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter.Business\obj\Debug\net8.0\Training.00FFA467.Up2Date
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter.Business\bin\Debug\net8.0\TrainingCenter.DataAccess.dll
+D:\Programming\Programming Advices\Project\TrainingCenterMS\TrainingCenter.Business\bin\Debug\net8.0\TrainingCenter.DataAccess.pdb
