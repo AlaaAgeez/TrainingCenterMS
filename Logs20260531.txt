@@ -1,2 +1,0 @@
-2026-05-31 01:31:04.340 +03:00 [WRN] The property 'RoleId' on entity type 'Role' is of type 'byte', but is set up to use a SQL Server identity column; this requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values.
-2026-05-31 01:31:07.190 +03:00 [INF] User alaaageez1999@gmail.com with Role 1 logged in successfully at "2026-05-30T22:31:07.1873764Z"
