@@ -1,107 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Training Center Management System</title>
+
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma;
+        line-height: 1.7;
+        margin: 0;
+        background: #0f172a;
+        color: #e5e7eb;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 30px;
+    }
+
+    h1, h2, h3 {
+        color: #38bdf8;
+    }
+
+    section {
+        background: #111827;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 12px;
+        border: 1px solid #334155;
+    }
+
+    .badge {
+        display: inline-block;
+        background: #1d4ed8;
+        padding: 3px 8px;
+        border-radius: 6px;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
+</style>
+</head>
+
 <body>
 
-<h1>🎓 Training Center Management System (TCMS)</h1>
+<div class="container">
 
-<p>
-A robust, enterprise-grade Web API system designed to manage students, instructors, and courses with a comprehensive role-based access control system.
-</p>
+<!-- TITLE -->
+<section>
+    <h1>🚀 Training Center Management System</h1>
+    <p><b>Backend Developer Project</b> | ASP.NET Core Web API | Clean Architecture</p>
+</section>
 
-<h2>📌 Overview</h2>
+<!-- OVERVIEW -->
+<section>
+    <h2>📌 Project Overview</h2>
+    <p>
+        Designed and developed a production-grade Training Center Management System using ASP.NET Core Web API following Clean Architecture principles.
+        The system simulates a real-world educational platform where students, instructors, and administrators interact through a secure and scalable backend infrastructure.
+    </p>
+    <p>
+        The project focuses on modularity, scalability, security, and maintainability, with strict separation of concerns across all layers.
+    </p>
+</section>
 
-<p>
-The <b>Training Center Management System</b> is a professional backend solution that facilitates administrative operations for educational centers. It features a sophisticated workflow where:
-</p>
+<!-- ARCHITECTURE -->
+<section>
+    <h2>🏗️ Architecture & Design</h2>
 
-<ul>
-  <li><b>Students</b> can browse, search, and enroll in courses.</li>
-  <li><b>Instructors</b> can manage and create course content.</li>
-  <li><b>Admins</b> have full control over system users, roles, and administrative configurations.</li>
-</ul>
+    <p><b>Implemented Clean Architecture with 4 main layers:</b></p>
+    <ul>
+        <li>API Layer (Controllers + Middleware)</li>
+        <li>Business Layer (Application Logic + Services)</li>
+        <li>Core Layer (Entities, DTOs, Interfaces, Constants, Exceptions)</li>
+        <li>Data Access Layer (Repositories + Unit of Work + EF Core)</li>
+    </ul>
 
-<hr/>
+    <p><b>Separation of concerns:</b></p>
+    <ul>
+        <li>Domain logic</li>
+        <li>Business logic</li>
+        <li>Infrastructure concerns</li>
+    </ul>
 
-<h2>⚙️ Technology Stack</h2>
+    <p>Designed a fully decoupled system using Dependency Injection and interface-driven development.</p>
+</section>
 
-<ul>
-  <li><b>Language & Framework:</b> C#, ASP.NET Core</li>
-  <li><b>Database & ORM:</b> SQL Server, Entity Framework Core (EF Core)</li>
-  <li><b>Architecture:</b> Repository Pattern, Unit of Work, SOLID Principles</li>
-  <li><b>Security:</b> JWT (Access & Refresh Tokens), Policy-based Authorization, Rate Limiting</li>
-  <li><b>Performance & Quality:</b> Redis Caching, FluentValidation, Global Exception Handling, Async Programming</li>
-  <li><b>Logging:</b> Structured Logging for system auditing</li>
-</ul>
+<!-- FEATURES -->
+<section>
+    <h2>⚙️ Key Features & Implementation</h2>
 
-<hr/>
+    <h3>🔐 Authentication & Authorization</h3>
+    <ul>
+        <li>JWT Authentication with Refresh Token mechanism</li>
+        <li>Role-Based Access Control (RBAC)</li>
+        <li>Policy-Based Authorization for fine-grained access control</li>
+    </ul>
 
-<h2>🚀 Core Features</h2>
+    <h3>⚡ Performance & Optimization</h3>
+    <ul>
+        <li>Redis Caching for frequently accessed data</li>
+        <li>Server-side pagination with optimized queries</li>
+        <li>EF Core AsNoTracking for read-heavy operations</li>
+        <li>Asynchronous programming throughout the system</li>
+    </ul>
 
-<ul>
-  <li><b>Role-Based Access Control (RBAC):</b> Granular authorization for Admins, Instructors, and Students using Policies.</li>
-  <li><b>Database Integrity:</b> Properly designed relational schema with strict constraints and normalized data.</li>
-  <li><b>Resilience & Security:</b> Anti-brute force mechanisms, endpoint rate limiting, and secure token management.</li>
-  <li><b>Clean Code:</b> Adherence to SOLID principles and modular design using Repository Pattern & Unit of Work.</li>
-  <li><b>Caching:</b> Redis integration to optimize high-traffic data retrieval.</li>
-</ul>
+    <h3>🛡️ Security & Reliability</h3>
+    <ul>
+        <li>Global Exception Handling Middleware</li>
+        <li>Custom AppException handling strategy</li>
+        <li>FluentValidation per DTO</li>
+        <li>Rate Limiting to prevent abuse and brute-force attacks</li>
+    </ul>
 
-<hr/>
+    <h3>📊 Data Layer</h3>
+    <ul>
+        <li>Repository Pattern + Unit of Work</li>
+        <li>Clean EF Core data access layer</li>
+        <li>Separation between domain and persistence logic</li>
+    </ul>
 
-<h2>🛠️ How to Run</h2>
+    <h3>📧 External Integrations</h3>
+    <ul>
+        <li>SMTP Email Service (Gmail integration)</li>
+        <li>Automated email notifications</li>
+    </ul>
 
-<h3>Prerequisites</h3>
+    <h3>📚 API Design</h3>
+    <ul>
+        <li>RESTful API with DTO abstraction</li>
+        <li>Swagger documentation</li>
+        <li>Consistent response structure</li>
+    </ul>
 
-<ul>
-  <li>Visual Studio 2026 (or latest version)</li>
-  <li>SQL Server & SSMS installed</li>
-  <li>Redis server running locally (localhost:6379)</li>
-</ul>
+    <h3>🚀 Deployment</h3>
+    <ul>
+        <li>Production deployment via SmarterASP.NET</li>
+        <li>HTTPS enabled</li>
+        <li>Production-ready configuration</li>
+    </ul>
+</section>
 
-<h3>Setup Steps</h3>
+<!-- TECH STACK -->
+<section>
+    <h2>🧰 Technology Stack</h2>
+    <ul>
+        <li>ASP.NET Core Web API</li>
+        <li>Entity Framework Core</li>
+        <li>SQL Server</li>
+        <li>Redis</li>
+        <li>JWT Authentication</li>
+        <li>FluentValidation</li>
+        <li>SMTP Email Service</li>
+        <li>Swagger</li>
+        <li>Dependency Injection</li>
+        <li>C# .NET</li>
+    </ul>
+</section>
 
-<ol>
-  <li>
-    Clone the repository:
-    <pre><code>git clone [Your-Repository-Link]</code></pre>
-  </li>
+<!-- ACHIEVEMENTS -->
+<section>
+    <h2>🎯 Key Achievements</h2>
+    <ul>
+        <li>Built a scalable enterprise-grade backend system</li>
+        <li>Optimized performance using caching and query optimization</li>
+        <li>Implemented secure authentication and authorization system</li>
+        <li>Maintained clean and maintainable architecture</li>
+        <li>Delivered production-ready deployed API</li>
+    </ul>
+</section>
 
-  <li>
-    Configure AppSettings:
-    <p>Update <b>appsettings.json</b> with your database credentials and SMTP settings:</p>
+<!-- NOTE -->
+<section>
+    <h2>💡 Note</h2>
+    <p>
+        This project demonstrates strong backend engineering skills including system design, clean architecture,
+        security implementation, and production deployment readiness.
+    </p>
+</section>
 
-    <pre><code>
-"ConnectionStrings": {
-  "DefaultConnection": "Server=YOUR_SERVER;Database=TrainingCenterDB;Trusted_Connection=True;TrustServerCertificate=True;"
-}
-    </code></pre>
-  </li>
-
-  <li>
-    Database Migration:
-    <p>Run the following command in Package Manager Console:</p>
-
-    <pre><code>Update-Database</code></pre>
-  </li>
-
-  <li>
-    Run the Project:
-    <p>Start the application and access Swagger UI to test API endpoints.</p>
-  </li>
-</ol>
-
-<hr/>
-
-<h2>🔐 Security Configuration Highlights</h2>
-
-<ul>
-  <li><b>Auth Endpoints:</b> Limited to 5 requests per 15 minutes to prevent brute-force attacks.</li>
-  <li><b>Admin Endpoints:</b> High-performance rate limiting to ensure system stability.</li>
-  <li><b>Public Read Operations:</b> Optimized with caching and balanced limits.</li>
-</ul>
-
-<hr/>
-
-<p>
-<b>Built with passion for clean, secure, and maintainable enterprise software.</b>
-</p>
+</div>
 
 </body>
 </html>
