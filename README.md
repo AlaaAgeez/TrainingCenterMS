@@ -21,6 +21,37 @@ The project focuses on maintainability, separation of concerns, and scalable bac
 
 <hr>
 
+<h2>📊 Project Metrics</h2>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Endpoints</td>
+      <td><b>60+</b></td>
+    </tr>
+    <tr>
+      <td>Database Entities</td>
+      <td><b>8</b></td>
+    </tr>
+    <tr>
+      <td>DTOs</td>
+      <td><b>37</b></td>
+    </tr>
+    <tr>
+      <td>Validators</td>
+      <td><b>23</b></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
 <h2>🏗️ System Architecture</h2>
 
 <p>The system is divided into 4 layers:</p>
@@ -49,17 +80,6 @@ The system is built using dependency injection and interface-driven design to en
   <li>Rate Limiting for API protection</li>
   <li>Redis Caching for performance optimization</li>
   <li>Asynchronous programming (async/await)</li>
-</ul>
-
-<hr>
-
-<h2>📊 Data Access Layer</h2>
-
-<ul>
-  <li>Repository Pattern implementation</li>
-  <li>Unit of Work pattern</li>
-  <li>EF Core with optimized queries</li>
-  <li>AsNoTracking for read optimization</li>
 </ul>
 
 <hr>
