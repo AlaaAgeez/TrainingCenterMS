@@ -68,6 +68,8 @@ The system is built using dependency injection and interface-driven design to en
 </p>
 
 <hr>
+### 🗺️ Database Schema
+![Database ERD](Docs/database-schema.png)
 
 <h2>⚙️ Key Features</h2>
 
