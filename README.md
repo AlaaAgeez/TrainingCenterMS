@@ -1,137 +1,108 @@
-<body>
+# 🚀 Training Center Management System
+**ASP.NET Core Web API | Clean Architecture | SQL Server | Redis**
 
-<h1>🚀 Training Center Management System</h1>
-<p><strong>ASP.NET Core Web API | Clean Architecture | SQL Server</strong></p>
+---
 
-<hr>
+## 📌 Overview
+The Training Center Management System is a backend Web API built with ASP.NET Core following Clean Architecture principles.
 
-<h2>📌 Overview</h2>
+The system simulates a real training center where students, instructors, and administrators interact through a secure and scalable backend.
 
-<p>
-The Training Center Management System is a backend Web API built using ASP.NET Core following Clean Architecture principles.
-</p>
-
-<p>
-The system simulates a real training center where students, instructors, and administrators interact through a secure and scalable backend system.
-</p>
-
-<p>
 The project focuses on maintainability, separation of concerns, and scalable backend design.
-</p>
 
-<hr>
+---
 
-<h2>📊 Project Metrics</h2>
+## 📊 Project Metrics
 
-<table border="1" cellpadding="8" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Metric</th>
-      <th>Count</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Endpoints</td>
-      <td><b>60+</b></td>
-    </tr>
-    <tr>
-      <td>Database Entities</td>
-      <td><b>8</b></td>
-    </tr>
-    <tr>
-      <td>DTOs</td>
-      <td><b>37</b></td>
-    </tr>
-    <tr>
-      <td>Validators</td>
-      <td><b>23</b></td>
-    </tr>
-  </tbody>
-</table>
+| Metric | Count |
+|---|---|
+| Endpoints | 60+ |
+| Database Entities | 8 |
+| DTOs | 37 |
+| Validators | 23 |
 
-<hr>
+---
 
-<h2>🏗️ System Architecture</h2>
+## 🏗️ System Architecture
+The solution is divided into 4 layers:
 
-<p>The system is divided into 4 layers:</p>
+- **API Layer** (`TrainingCenterMS`): Controllers, Global Exception Middleware, validation filters
+- **Business Layer** (`TrainingCenter.Business`): Business logic, services, FluentValidation, authorization policies and handlers
+- **Core Layer** (`TrainingCenter`): Entities, DTOs, interfaces, custom exceptions
+- **Data Access Layer** (`TrainingCenter_DataAccess`): Repositories, Unit of Work, EF Core
 
-<ul>
-  <li><b>API Layer</b>: Controllers + Global Exception Middleware</li>
-  <li><b>Business Layer</b>: Business logic, services, FluentValidation, authorization policies</li>
-  <li><b>Core Layer</b>: Entities, DTOs, Interfaces, Constants, Custom Exceptions</li>
-  <li><b>Data Access Layer</b>: Repositories, Unit of Work, EF Core</li>
-</ul>
-
-<p>
-The system is built using dependency injection and interface-driven design to ensure loose coupling between layers.
-</p>
-
-<hr>
-
+The layers communicate through dependency injection and interface-driven design to keep coupling loose.
 
 ![Database ERD](database-schema.png)
 
-<h2>⚙️ Key Features</h2>
+---
 
-<ul>
-  <li>JWT Authentication with Refresh Token support</li>
-  <li>Role-Based Authorization (RBAC)</li>
-  <li>Policy-Based Authorization</li>
-  <li>Global Exception Handling Middleware</li>
-  <li>FluentValidation per DTO</li>
-  <li>Rate Limiting for API protection</li>
-  <li>Redis Caching for performance optimization</li>
-  <li>Asynchronous programming (async/await)</li>
-</ul>
+## ⚙️ Key Features
+- JWT Authentication with Refresh Token support
+- Role-Based Authorization (RBAC)
+- Policy-Based Authorization (owner-or-admin resource handlers)
+- Global Exception Handling Middleware
+- FluentValidation per DTO
+- Rate Limiting for API protection (per-endpoint rules)
+- Redis Caching for performance optimization
+- Email verification and OTP flows
+- Asynchronous programming (async/await)
 
-<hr>
+---
 
-<h2>📧 External Services</h2>
+## 📧 External Services
+- SMTP Email Service (Gmail integration)
 
-<ul>
-  <li>SMTP Email Service (Gmail integration)</li>
-</ul>
+---
 
-<hr>
+## 🧰 Technology Stack
+- ASP.NET Core Web API (.NET 8)
+- C#
+- Entity Framework Core
+- SQL Server
+- Redis
+- JWT Authentication
+- FluentValidation
+- Swagger
+- Docker
 
-<h2>🧰 Technology Stack</h2>
+---
 
-<ul>
-  <li>ASP.NET Core Web API</li>
-  <li>C#</li>
-  <li>Entity Framework Core</li>
-  <li>SQL Server</li>
-  <li>Redis</li>
-  <li>JWT Authentication</li>
-  <li>FluentValidation</li>
-  <li>Swagger</li>
-  <li>SMTP Email Service</li>
-  <li>Dependency Injection</li>
-</ul>
+## 🚀 Getting Started
 
-<hr>
+### Prerequisites
+- .NET 8 SDK
+- SQL Server (Express edition works)
+- Redis (locally, or via Docker: `docker run -p 6379:6379 redis`)
 
-<h2>🚀 Deployment</h2>
+### Setup
+1. Clone the repository.
+2. Configure your local settings with [User Secrets](https://learn.microsoft.com/aspnet/core/security/app-secrets) or environment variables (never commit real secrets):
+   - `ConnectionStrings:DefaultConnection` - your SQL Server connection string
+   - `JwtSettings:SecretKey` - a long random key
+   - `EmailSettings:Email` and `EmailSettings:Password` - a Gmail address and its [app password](https://myaccount.google.com/apppasswords)
+   - `Redis:ConnectionString` - e.g. `localhost:6379`
+3. Create the `TrainingCenterDB` database (see `database-schema.png` for the ERD).
+4. Run the API:
+   ```
+   dotnet run --project TrainingCenterMS
+   ```
+5. Open the Swagger UI at `/swagger` to explore and test the endpoints.
 
-<p>
+### 🐳 Docker
+A `Dockerfile` is included at the repository root for containerized builds.
+
+---
+
+## 🚀 Deployment
 Deployed on SmarterASP.NET with production-ready configuration and HTTPS enabled.
-</p>
 
-<hr>
+---
 
-<h2>🎯 Project Goal</h2>
-
-<p>
+## 🎯 Project Goal
 To demonstrate backend engineering skills including system design, clean architecture, security implementation, and scalable API development.
-</p>
 
-<hr>
+---
 
-<h2>🚀 Notes</h2>
-
-<p>
-This project is not just CRUD operations — it represents a structured backend system built with real-world architecture principles.
-</p>
-
-</body>
+## 📝 Notes
+This project is not just CRUD operations - it represents a structured backend system built with real-world architecture principles.
