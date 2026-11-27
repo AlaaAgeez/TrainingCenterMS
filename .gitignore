@@ -1,0 +1,15 @@
+# Visual Studio
+.vs/
+.vscode/
+
+# Build output
+**/[Bb]in/
+**/[Oo]bj/
+**/[Xx]64/
+*.user
+*.suo
+*.cache
+
+# Local settings with secrets
+appsettings.Local.json
+secrets.json
